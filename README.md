@@ -12,7 +12,7 @@ for heyri bus tour route system.
 - passanger
 - driver
 
-# fucntion
+# function
 
 - bus tour route
 - location place
