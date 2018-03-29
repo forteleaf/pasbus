@@ -1,6 +1,7 @@
 module.exports = {
     root: true,
     parserOptions: {
+      ecmaVersion: 6,
       parser: "babel-eslint",
       sourceType: 'module'
     },
@@ -20,6 +21,7 @@ module.exports = {
       // allow async-await
       'generator-star-spacing': 'off',
       // allow debugger during development
-      'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+      'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+      'indent': 2
     }
   }
